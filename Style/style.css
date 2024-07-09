@@ -175,15 +175,15 @@ nav p {
     width: 1140px;
     height: 775px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
-.inspiration-text {
+.text {
     text-align: center;
     padding: 0 144px;
 }
 
-.inspiration-text h2 {
+.title-2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -191,17 +191,57 @@ nav p {
     margin-bottom: 20px;
 }
 
-.inspiration-text p {
+.description-2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-.video{
+
+.video {
     text-align: center;
     margin-top: 48px;
 }
-.video iframe{
+
+.video iframe {
     border-radius: 8px;
+}
+
+/* c-target */
+.c-target {
+    width: 1140px;
+    height: 460px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.learn-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.learn-content{
+    padding-right: 48px;
+}
+.learn-content h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.learn-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.learn-content a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
 }
