@@ -82,3 +82,87 @@ nav p {
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+
+/* development */
+.development {
+    width: 1140px;
+    /* border: 2px solid red; */
+    margin: 48px auto;
+}
+
+.development-container {
+    width: 946px;
+    /* border: 2px solid blue; */
+    margin: 80px auto;
+}
+
+.development-container-title {
+    text-align: center;
+    padding: 40px;
+}
+
+.development-container-title h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.development-container-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.change {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.change-info {
+    padding: 0 80px 0 48px;
+}
+
+.title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    order: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.change-pic{
+    padding-right: 20px;
+}
+.modern-pic{
+    padding-left: 20px;
+    padding-right: 24px;
+}
+.modern-info{
+    padding: 0 48px 0 20px;
+    margin-top: 20px;
+}
