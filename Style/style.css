@@ -35,7 +35,10 @@ nav p {
     font-size: 28px;
     font-weight: 800;
 }
-
+/* scroll  */
+html{
+    scroll-behavior: smooth;
+}
 /* banner */
 .banner {
     margin-top: 48px;
@@ -222,10 +225,11 @@ nav p {
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .learn-content {
-    padding-right: 48px;
+    padding: 16px 24px;
 }
 
 .learn-content h3 {
@@ -264,7 +268,7 @@ a {
 .footer {
     width: 1140px;
     height: 600px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 48px auto;
 }
 
@@ -335,4 +339,17 @@ input[type="submit"] {
 .foot-img{
     display: flex;
     gap: 24px;
+}
+/* bg for current target */
+.html-1{
+    background-color: #fff6f4;
+    border-radius: 16px;
+}
+.css-1{
+    background-color: #f2f6fe;
+    border-radius: 16px;
+}
+.js-1{
+    background-color: #fffdf2;
+    border-radius: 16px;
 }
