@@ -43,7 +43,7 @@ html{
 .banner {
     margin-top: 48px;
     height: 652px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
