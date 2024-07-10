@@ -275,7 +275,7 @@ a {
 .support {
     height: 313px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/handshake.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
