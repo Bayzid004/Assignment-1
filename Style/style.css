@@ -120,6 +120,7 @@ nav p {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .change-info {
@@ -214,15 +215,19 @@ nav p {
     height: 460px;
     /* border: 2px solid red; */
     margin: 0 auto;
+    margin-bottom: 50px;
 }
-.learn-container{
+
+.learn-container {
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
 }
-.learn-content{
+
+.learn-content {
     padding-right: 48px;
 }
+
 .learn-content h3 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -239,9 +244,95 @@ nav p {
     line-height: 26px;
     margin-bottom: 20px;
 }
-.learn-content a{
+
+a {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* next target */
+
+.n-target-pic {
+    margin-left: 160px;
+    margin-top: 48px;
+}
+
+
+/* footer */
+.footer {
+    width: 1140px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 48px auto;
+}
+
+.support {
+    height: 313px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.support h3 {
+    padding-top: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 380px;
+    padding: 19px 28px;
+    border-radius: 8px;
+    margin-right: 16px;
+    border: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="submit"] {
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.foot {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.foot-img{
+    display: flex;
+    gap: 24px;
 }
